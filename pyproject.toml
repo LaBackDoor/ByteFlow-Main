@@ -1,0 +1,14 @@
+[project]
+name = "byteflow"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.6.0",
+    "datasets>=3.5.1",
+    "scapy>=2.6.1",
+    "tensorflow-datasets>=4.9.8",
+    "torch>=2.7.0",
+    "transformers>=4.51.3",
+    "wandb>=0.19.10",
+]
