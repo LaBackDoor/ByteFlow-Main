@@ -34,7 +34,7 @@ Create the directory structure data/flows/ inside Your_Project_Root_Directory (i
 Place all your raw network traffic capture files (with .pcap extension, as the script currently filters for these) into this data/flows/ directory.
 Crucially, update the pcap_dir variable in training.py. In the main() function of training.py (around the end of the file), modify the line:
 ```Python
-pcap_dir = "../../data/flows"
+pcap_dir = "data/flows"
 ```
 
 ## 3. Running Training
